@@ -9,6 +9,9 @@
   "installed_plugins": {
     "cordova-plugin-camera": {
       "PACKAGE_NAME": "com.phoneGap.testApp"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "com.phoneGap.testApp"
     }
   },
   "dependent_plugins": {}
