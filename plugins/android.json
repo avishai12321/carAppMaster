@@ -1,18 +1,25 @@
 {
-  "prepare_queue": {
-    "installed": [],
-    "uninstalled": []
-  },
-  "config_munge": {
-    "files": {}
-  },
-  "installed_plugins": {
-    "cordova-plugin-camera": {
-      "PACKAGE_NAME": "com.phoneGap.testApp"
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
     },
-    "cordova-plugin-geolocation": {
-      "PACKAGE_NAME": "com.phoneGap.testApp"
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.phoneGap.testApp"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.phoneGap.testApp"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "com.phoneGap.testApp"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.phoneGap.testApp"
+        }
     }
-  },
-  "dependent_plugins": {}
 }
